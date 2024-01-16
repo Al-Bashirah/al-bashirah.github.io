@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Popup in HTML CSS Javascript | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- Tombol untuk Play Music dan menampilkan isi konten -->
+    <button class="tombol">Lihat Website</button>
+      <div id="konten" style="display: none;">
+        <div class="wrapper">
+          <div class="img-area">
+            <div class="inner-area">
+              <img src="images/bashirah.JPG" alt="">
+            </div>
+          </div>
+          <div class="icon arrow"><i class="fas fa-arrow-left"></i></div>
+          <div class="icon dots"><i class="fas fa-ellipsis-v"></i></div>
+          <div class="name">Ilmu Tauhid</div>
+          <div class="about">Berserah Diri</div>
+          <div class="social-icons">
+            <a href="#" class="fb"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="insta"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="yt"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="buttons">
+            <button>Message</button>
+            <button>Subscribe</button>
+          </div>
+          <div class="social-share">
+            <div class="row">
+              <i class="far fa-heart"></i>
+              <i class="icon-2 fas fa-heart"></i>
+              <span>7</span>
+            </div>
+            <div class="row">
+              <i class="far fa-comment"></i>
+              <i class="icon-2 fas fa-comment"></i>
+              <span>2</span>
+            </div>
+            <div class="row">
+              <i class="fas fa-share"></i>
+              <span>2</span>
+            </div>
+          </div>
+        </div>
+      <div id="loader" style="display: none;">
+        <p>Sedang Memuat</p>
+      </div>
+      <!-- Folder musik. It is started by the Javascript -->
+    <audio id="musik" src="audio/sound.mp3" style="display: none;" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>

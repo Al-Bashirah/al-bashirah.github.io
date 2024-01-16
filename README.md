@@ -1,3 +1,3 @@
 # al-bashirah.github.io
 
-rewrite by @pearanoid.s
+📝Rewrite by @pearanoid.s
